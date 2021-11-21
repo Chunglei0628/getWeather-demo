@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "b87f3b22-7897-43c5-bbb9-2889b607a882",
+		"name": "GetWeather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetWeather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/v1/weather?city=melbourne​",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "melbourne​"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
