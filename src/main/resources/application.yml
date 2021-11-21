@@ -10,11 +10,11 @@ app:
     temperatureUnit: celsius
     cacheClearSchedule: "*/3 * * * * *"
     weatherstack:
-      apiKey: 231331da0f85386b47bce1d937502623
+      apiKey:
       enable: Y
       sequence: 0
     openWeatherMap:
-      apiKey: aa5b776dc6b821ab12ed4dd6da495d60
+      apiKey:
       enable: Y
       sequence: 1
 
