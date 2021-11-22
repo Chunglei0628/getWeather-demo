@@ -12,7 +12,7 @@ import java.util.*
 
 @RestController
 @RequestMapping("v1")
-class ApiUserController {
+class WeatherController {
 
     private val logger = LoggerFactory.getLogger(this::class.java)
 
